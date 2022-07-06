@@ -90,6 +90,10 @@ body {
     padding: 20px;
 }
 
+.donate-today-part hr {
+    margin-bottom: 30px;
+}
+
 .donate-today-part a {
     background-color: tomato;
     padding: 7px 10px;
@@ -103,3 +107,5 @@ body {
 .donate-today-part a:hover {
     background-color: navy;
 }
+
+/* donate-today-part css end */
