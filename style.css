@@ -1,0 +1,44 @@
+body {
+    margin: 0 auto;
+}
+
+
+
+#header-part {
+    background-image: url(images/donation5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#header-part .text {
+    text-align: center;
+    padding: 180px 150px;
+}
+
+#header-part .text h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 60px;
+    color: white;
+}
+
+#header-part .text p {
+    margin-top: -25px;
+    color: white;
+    padding: 0 200px;
+    font-size: 20px;
+}
+
+#header-part .text a {
+    background-color: tomato;
+    padding: 7px 10px;
+    color: #ddd;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: .4s;
+}
+
+#header-part .text a:hover {
+    background-color: navy;
+}
+
+/* header-part css end */
