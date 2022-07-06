@@ -166,3 +166,53 @@ body {
     padding: 50px 20px;
     border-radius: 10px;
 }
+
+/* our-donate-paln-part css end */
+.Contribute-part {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.Contribute-part .text {
+    width: 50%;
+    padding-left: 15%;
+
+}
+
+.Contribute-part .text h1 {
+    font-size: 50px;
+}
+
+.Contribute-part .text p {
+    color: rgb(145, 141, 141);
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.Contribute-part .text a {
+    background-color: tomato;
+    padding: 10px 15px;
+    color: #ddd;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: .4s;
+    font-size: 20px;
+}
+
+.Contribute-part .text a:hover {
+    background-color: navy;
+}
+
+.Contribute-part .img {
+    width: 50%;
+    padding-left: 5%;
+    padding-right: 15%;
+
+}
+
+.Contribute-part .img img {
+    width: 130%;
+}
+
+/* Contribute-part css end */
