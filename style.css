@@ -61,9 +61,6 @@ body {
 }
 
 
-
-
-
 .donate-today-part .box-contain {
     justify-content: space-evenly;
     padding: 0 300px;
@@ -109,3 +106,63 @@ body {
 }
 
 /* donate-today-part css end */
+
+
+#our-donate-paln-part .donate-text {
+    text-align: center;
+    margin-top: 100px;
+}
+
+#our-donate-paln-part .donate-text h1 {
+    font-size: 50px;
+}
+
+#our-donate-paln-part .donate-text p {
+    color: rgb(145, 141, 141);
+    padding: 0 360px;
+    font-size: 20px;
+
+}
+
+#our-donate-paln-part .box-contain {
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+}
+
+
+
+#our-donate-paln-part .box-contain h3 {
+    color: black;
+    font-size: 30px;
+}
+
+#our-donate-paln-part .box-contain p {
+    color: #ddd;
+    font-size: 18px;
+}
+
+#our-donate-paln-part .box-contain .box1 {
+    margin: 50px 0;
+    width: 22%;
+    background-color: rgb(233, 129, 110);
+    padding: 50px 20px;
+    border-radius: 10px;
+}
+
+#our-donate-paln-part .box-contain .box2 {
+    margin: 50px 0;
+    width: 22%;
+    background-color: rgb(233, 164, 152);
+    padding: 50px 20px;
+    border-radius: 10px;
+}
+
+#our-donate-paln-part .box-contain .box3 {
+    margin: 50px 0;
+    width: 22%;
+    background-color: rgb(147, 80, 80);
+    padding: 50px 20px;
+    border-radius: 10px;
+}
