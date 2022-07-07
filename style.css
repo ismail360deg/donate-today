@@ -383,11 +383,18 @@ body {
     padding: 90px 225px;
 }
 
+.update-part .details .email-contact input {
+    padding: 10px 25px;
+}
 
+.update-part .details .subscribe {
+    padding: 0 10px;
+}
 
 .update-part .details .subscribe button {
-    margin-left: 5px;
-    transition: 4.s;
+
+    transition: .4s;
+    padding: 10px 25px;
 }
 
 .update-part .details .subscribe button:hover {
