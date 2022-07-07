@@ -20,6 +20,7 @@ body {
 #header-part .text h1 {
     font-family: 'Roboto', sans-serif;
     font-size: 60px;
+    font-weight: 700;
     color: white;
 }
 
@@ -53,6 +54,7 @@ body {
 
 .donate-today-part .donate-text h1 {
     font-size: 50px;
+    font-weight: 700;
 }
 
 .donate-today-part .donate-text p {
@@ -117,6 +119,7 @@ body {
 
 #our-donate-paln-part .donate-text h1 {
     font-size: 50px;
+    font-weight: 700;
 }
 
 #our-donate-paln-part .donate-text p {
@@ -184,6 +187,7 @@ body {
 
 .Contribute-part .text h1 {
     font-size: 50px;
+    font-weight: 700;
 }
 
 .Contribute-part .text p {
@@ -228,6 +232,7 @@ body {
 
 .need-us-part .text h1 {
     font-size: 50px;
+    font-weight: 700;
 }
 
 .need-us-part .text p {
@@ -277,6 +282,7 @@ body {
 
 #contact-me h1 {
     text-align: center;
+    font-weight: 700;
     font-size: 50px;
 }
 
@@ -314,6 +320,7 @@ body {
 #contact-me .contact-list .create-an-account button:hover {
     background-color: blue;
     color: white;
+    cursor: pointer;
 }
 
 #contact-me .contact-list .log-in {
@@ -342,4 +349,50 @@ body {
 #contact-me .contact-list .log-in button:hover {
     background-color: blue;
     color: white;
+    cursor: pointer;
 }
+
+/* contact-me css end */
+
+.update-part .text {
+    text-align: center;
+}
+
+.update-part .text h1 {
+    font-weight: 700;
+    font-size: 50px;
+}
+
+.update-part .text p {
+    font-size: 18px;
+    color: rgb(192, 182, 182);
+    padding: 0 378px;
+}
+
+.update-part .details {
+    background-color: rgb(156, 156, 168);
+    margin-left: 330px;
+    width: 700px;
+    height: 200px;
+    display: flex;
+}
+
+.update-part .details .email-contact {
+    display: flex;
+    padding: 100px 240px;
+}
+
+
+
+.update-part .details .subscribe button {
+    margin-left: 5px;
+    transition: 4.s;
+}
+
+.update-part .details .subscribe button:hover {
+    background-color: tomato;
+    cursor: pointer;
+    color: white;
+}
+
+/* update-part css end */
