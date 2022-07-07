@@ -222,11 +222,7 @@ body {
     justify-content: space-evenly;
 }
 
-.need-us-part .text {
-    width: 50%;
-    padding-left: 15%;
 
-}
 
 .need-us-part .text h1 {
     font-size: 50px;
@@ -252,13 +248,23 @@ body {
     background-color: navy;
 }
 
+
+.need-us-part .text {
+    width: 50%;
+    padding-right: 10%;
+    padding-left: 10%;
+
+}
+
 .need-us-part .img {
     width: 50%;
     padding-left: 5%;
-    padding-right: 15%;
+
 
 }
 
 .need-us-part .img img {
-    width: 130%;
+    width: 100%;
 }
+
+/* need-us-part css end */
