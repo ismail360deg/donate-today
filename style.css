@@ -1,5 +1,7 @@
 body {
-    margin: 0 auto;
+
+    padding: 0;
+    margin: 0;
 }
 
 
@@ -268,3 +270,76 @@ body {
 }
 
 /* need-us-part css end */
+
+#contact-me {
+    margin: 100px;
+}
+
+#contact-me h1 {
+    text-align: center;
+    font-size: 50px;
+}
+
+#contact-me .contact-list {
+    display: flex;
+    background-color: tomato;
+    margin-left: 270px;
+    width: 600px;
+    height: 400px;
+}
+
+#contact-me .contact-list .create-an-account {
+    padding: 20px 50px;
+    width: 50%;
+}
+
+#contact-me .contact-list .create-an-account h3 {
+    color: white;
+    background-color: rgb(44, 44, 190);
+    text-align: center;
+    padding: 3px 0;
+}
+
+#contact-me .contact-list .create-an-account p {
+    margin: 0;
+    color: white;
+    font-size: 18px;
+}
+
+#contact-me .contact-list .create-an-account button {
+    margin-top: 10px;
+    transition: .4s;
+}
+
+#contact-me .contact-list .create-an-account button:hover {
+    background-color: blue;
+    color: white;
+}
+
+#contact-me .contact-list .log-in {
+    padding: 100px 20px;
+    width: 50%;
+}
+
+#contact-me .contact-list .log-in h3 {
+    color: white;
+    background-color: rgb(44, 44, 190);
+    text-align: center;
+    padding: 3px 0;
+}
+
+#contact-me .contact-list .log-in p {
+    margin: 0;
+    color: white;
+    font-size: 18px;
+}
+
+#contact-me .contact-list .log-in button {
+    margin-top: 10px;
+    transition: .4s;
+}
+
+#contact-me .contact-list .log-in button:hover {
+    background-color: blue;
+    color: white;
+}
