@@ -1,5 +1,4 @@
 body {
-
     padding: 0;
     margin: 0;
 }
@@ -14,7 +13,7 @@ body {
 
 #header-part .text {
     text-align: center;
-    padding: 180px 150px;
+    padding: 215px 150px;
 }
 
 #header-part .text h1 {
@@ -32,8 +31,10 @@ body {
 }
 
 #header-part .text a {
+    font-weight: 700;
+    font-size: 18px;
     background-color: tomato;
-    padding: 7px 10px;
+    padding: 15px 25px;
     color: #ddd;
     border-radius: 5px;
     text-decoration: none;
@@ -102,7 +103,7 @@ body {
     border-radius: 5px;
     text-decoration: none;
     transition: .4s;
-    margin: 0 620px;
+    margin: 0 708px;
 }
 
 .donate-today-part a:hover {
@@ -289,7 +290,7 @@ body {
 #contact-me .contact-list {
     display: flex;
     background-color: tomato;
-    margin-left: 270px;
+    margin-left: 345px;
     width: 600px;
     height: 400px;
 }
@@ -371,7 +372,7 @@ body {
 
 .update-part .details {
     background-color: rgb(156, 156, 168);
-    margin-left: 330px;
+    margin-left: 412px;
     width: 700px;
     height: 200px;
     display: flex;
